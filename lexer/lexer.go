@@ -29,12 +29,6 @@ func (l *Lexer) readChar() {
 	l.readPosition += 1
 }
 
-func New(input string) *Lexer {
-	l := &Lexer{input: input}
-	l.readChar()
-	return l
-}
-
 func (l *Lexer) NextToken() token.Token {
 	var tok token.Token
 
