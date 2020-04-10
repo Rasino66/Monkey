@@ -24,7 +24,7 @@ const (
 	SEMICOLON = ";"
 
 	LPAREN = "("
-	RPANEN = ")"
+	RPAREN = ")"
 	LBRACE = "{"
 	RBRACE = "}"
 
