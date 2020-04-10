@@ -53,7 +53,7 @@ func (l *Lexer) NextToken() token.Token {
 		tok.Literal = ""
 		tok.Type = token.EOF
 	}
-	l.readChar
+	l.readChar()
 	return tok
 }
 
