@@ -3,7 +3,7 @@
 package lexer
 
 import  (
-  "github.com/rasino/monkey/token"
+  "github.com/Rasino66/Monkey/token"
 )
 
 type Lexer struct {
