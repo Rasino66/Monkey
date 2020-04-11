@@ -32,3 +32,10 @@ const (
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
 )
+
+var keywords = map[string]TokenType {
+  if tok, ok := keywords[ident]; ok {
+    return tok
+  }
+  return IDENT
+}
