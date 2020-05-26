@@ -18,7 +18,8 @@ const (
 
 	// 識別子
 	ASSIGN = "="
-	PLUS   = "+"
+	IntegerLiteralPLUS   = "+"
+  PLUS = "+"
   MINUS = "-"
   BANG = "!"
   ASTERISK = "*"
